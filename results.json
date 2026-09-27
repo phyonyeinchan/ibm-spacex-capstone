@@ -1,0 +1,198 @@
+{
+  "cohort_n": 90,
+  "sql_n": 101,
+  "geo_n": 56,
+  "dash_n": 56,
+  "successes": 60,
+  "rate": 0.6666666666666666,
+  "date_min": "2010-06-04",
+  "date_max": "2020-11-05",
+  "missing": {
+    "FlightNumber": 0,
+    "Date": 0,
+    "BoosterVersion": 0,
+    "PayloadMass": 0,
+    "Orbit": 0,
+    "LaunchSite": 0,
+    "Outcome": 0,
+    "Flights": 0,
+    "GridFins": 0,
+    "Reused": 0,
+    "Legs": 0,
+    "LandingPad": 26,
+    "Block": 0,
+    "ReusedCount": 0,
+    "Serial": 0,
+    "Longitude": 0,
+    "Latitude": 0,
+    "Class": 0,
+    "Year": 0
+  },
+  "best": "K nearest neighbors",
+  "confusion": [
+    [
+      2,
+      4
+    ],
+    [
+      0,
+      12
+    ]
+  ],
+  "models": [
+    {
+      "model": "Logistic regression",
+      "cv_accuracy": 0.86,
+      "test_accuracy": 0.778,
+      "test_f1": 0.857,
+      "params": "{'model__C': 1}"
+    },
+    {
+      "model": "Support vector machine",
+      "cv_accuracy": 0.874,
+      "test_accuracy": 0.778,
+      "test_f1": 0.857,
+      "params": "{'model__C': 1, 'model__kernel': 'rbf'}"
+    },
+    {
+      "model": "Decision tree",
+      "cv_accuracy": 0.846,
+      "test_accuracy": 0.778,
+      "test_f1": 0.857,
+      "params": "{'max_depth': 2, 'min_samples_leaf': 2}"
+    },
+    {
+      "model": "K nearest neighbors",
+      "cv_accuracy": 0.874,
+      "test_accuracy": 0.778,
+      "test_f1": 0.857,
+      "params": "{'model__n_neighbors': 5}"
+    }
+  ],
+  "site": [
+    {
+      "LaunchSite": "CCAFS SLC 40",
+      "size": 55,
+      "mean": 0.6
+    },
+    {
+      "LaunchSite": "KSC LC 39A",
+      "size": 22,
+      "mean": 0.773
+    },
+    {
+      "LaunchSite": "VAFB SLC 4E",
+      "size": 13,
+      "mean": 0.769
+    }
+  ],
+  "orbit": [
+    {
+      "Orbit": "ES-L1",
+      "size": 1,
+      "mean": 1.0
+    },
+    {
+      "Orbit": "GEO",
+      "size": 1,
+      "mean": 1.0
+    },
+    {
+      "Orbit": "GTO",
+      "size": 27,
+      "mean": 0.519
+    },
+    {
+      "Orbit": "HEO",
+      "size": 1,
+      "mean": 1.0
+    },
+    {
+      "Orbit": "ISS",
+      "size": 21,
+      "mean": 0.619
+    },
+    {
+      "Orbit": "LEO",
+      "size": 7,
+      "mean": 0.714
+    },
+    {
+      "Orbit": "MEO",
+      "size": 3,
+      "mean": 0.667
+    },
+    {
+      "Orbit": "PO",
+      "size": 9,
+      "mean": 0.667
+    },
+    {
+      "Orbit": "SO",
+      "size": 1,
+      "mean": 0.0
+    },
+    {
+      "Orbit": "SSO",
+      "size": 5,
+      "mean": 1.0
+    },
+    {
+      "Orbit": "VLEO",
+      "size": 14,
+      "mean": 0.857
+    }
+  ],
+  "year": [
+    {
+      "Year": 2010,
+      "size": 1,
+      "mean": 0.0
+    },
+    {
+      "Year": 2012,
+      "size": 1,
+      "mean": 0.0
+    },
+    {
+      "Year": 2013,
+      "size": 3,
+      "mean": 0.0
+    },
+    {
+      "Year": 2014,
+      "size": 6,
+      "mean": 0.333
+    },
+    {
+      "Year": 2015,
+      "size": 6,
+      "mean": 0.333
+    },
+    {
+      "Year": 2016,
+      "size": 8,
+      "mean": 0.625
+    },
+    {
+      "Year": 2017,
+      "size": 18,
+      "mean": 0.833
+    },
+    {
+      "Year": 2018,
+      "size": 18,
+      "mean": 0.611
+    },
+    {
+      "Year": 2019,
+      "size": 10,
+      "mean": 0.9
+    },
+    {
+      "Year": 2020,
+      "size": 19,
+      "mean": 0.842
+    }
+  ]
+}

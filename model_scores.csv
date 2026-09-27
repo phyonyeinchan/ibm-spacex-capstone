@@ -1,0 +1,5 @@
+model,cv_accuracy,test_accuracy,test_f1,params
+K nearest neighbors,0.874,0.778,0.857,{'model__n_neighbors': 5}
+Support vector machine,0.874,0.778,0.857,"{'model__C': 1, 'model__kernel': 'rbf'}"
+Logistic regression,0.86,0.778,0.857,{'model__C': 1}
+Decision tree,0.846,0.778,0.857,"{'max_depth': 2, 'min_samples_leaf': 2}"
