@@ -34,4 +34,4 @@ The 90-row cohort has 60 successful landing labels. Four models were tuned using
 
 Repository: https://github.com/phyonyeinchan/ibm-spacex-capstone
 
-The repository is currently private. The Coursera grader may need public access to inspect the notebook and Python files; visibility should be decided before submission.
+The repository is public so the Coursera grader can inspect the notebook and Python files. Historical IBM course data provenance and the live-source limitation are documented above.
